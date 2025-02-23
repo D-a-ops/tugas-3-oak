@@ -4,4 +4,5 @@ STM8 adalah keluarga mikrokontroler 8-bit yang dikembangkan oleh STMicroelectron
 
 
 Spesifikasi Utama STM8
+
 Mikrokontroler STM8 adalah mikrokontroler 8-bit dari STMicroelectronics dengan kecepatan hingga 24 MHz, memori Flash 4 KB - 128 KB, RAM 1 KB - 6 KB, dan EEPROM 128B - 2 KB. Mendukung GPIO, ADC 10-bit, PWM, serta komunikasi UART, SPI, dan I2C. Beroperasi pada tegangan 2.95V - 5.5V dengan fitur hemat daya dan tersedia dalam varian STM8S (standar), STM8L (hemat daya), dan STM8AF (otomotif).
