@@ -18,7 +18,8 @@ Cara Kerja Unit Kontrol:
 Unit kontrol berbasis mikrokontroler STM8 bekerja dengan membaca input dari sensor atau tombol, memproses data sesuai dengan program yang telah diprogram, lalu mengontrol output seperti lampu, motor, atau buzzer. Pertama, regulator tegangan menstabilkan daya yang masuk agar sesuai dengan kebutuhan STM8. Kemudian, sensor atau modul komunikasi (UART, SPI, I2C) mengirimkan data ke mikrokontroler, yang akan memprosesnya berdasarkan algoritma yang ditanamkan dalam memori Flash. Setelah itu, hasil pemrosesan digunakan untuk mengaktifkan driver output seperti relay atau MOSFET untuk mengendalikan perangkat eksternal. Selama operasi, LED indikator dan tombol dapat digunakan untuk memantau serta mengontrol sistem secara manual.
 
 
-Unit Control Alur :
+
+Alur Control Unit :
 
 1.Mulai
 
