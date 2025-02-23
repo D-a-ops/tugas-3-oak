@@ -19,7 +19,6 @@ Unit kontrol berbasis mikrokontroler STM8 bekerja dengan membaca input dari sens
 
 
 
-Alur Control Unit :
 
 1.Mulai
 
