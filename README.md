@@ -8,6 +8,12 @@ Spesifikasi Utama STM8 :
 Mikrokontroler STM8 adalah mikrokontroler 8-bit dari STMicroelectronics dengan kecepatan hingga 24 MHz, memori Flash 4 KB - 128 KB, RAM 1 KB - 6 KB, dan EEPROM 128B - 2 KB. Mendukung GPIO, ADC 10-bit, PWM, serta komunikasi UART, SPI, dan I2C. Beroperasi pada tegangan 2.95V - 5.5V dengan fitur hemat daya dan tersedia dalam varian STM8S (standar), STM8L (hemat daya), dan STM8AF (otomotif).
 
 
-Komponen Utama Unit Kontrol :
+Komponen Utama Unit Kontrol:
 
 Unit kontrol dengan mikrokontroler STM8 terdiri dari beberapa komponen utama, termasuk mikrokontroler STM8 sebagai pusat pemrosesan, regulator tegangan untuk menstabilkan daya, serta oscillator/kristal sebagai sumber clock. Selain itu, terdapat memori EEPROM/Flash untuk penyimpanan data, sensor seperti LDR atau DHT11 untuk membaca kondisi lingkungan, serta driver output (relay, MOSFET, atau transistor) untuk mengontrol perangkat seperti lampu atau motor. Sistem ini juga dilengkapi dengan komunikasi serial (UART, SPI, I2C) untuk berinteraksi dengan modul eksternal, serta tombol dan LED indikator untuk input manual dan tampilan status operasi.
+
+
+Cara Kerja Unit Kontrol:
+
+Unit kontrol berbasis mikrokontroler STM8 bekerja dengan membaca input dari sensor atau tombol, memproses data sesuai dengan program yang telah diprogram, lalu mengontrol output seperti lampu, motor, atau buzzer. Pertama, regulator tegangan menstabilkan daya yang masuk agar sesuai dengan kebutuhan STM8. Kemudian, sensor atau modul komunikasi (UART, SPI, I2C) mengirimkan data ke mikrokontroler, yang akan memprosesnya berdasarkan algoritma yang ditanamkan dalam memori Flash. Setelah itu, hasil pemrosesan digunakan untuk mengaktifkan driver output seperti relay atau MOSFET untuk mengendalikan perangkat eksternal. Selama operasi, LED indikator dan tombol dapat digunakan untuk memantau serta mengontrol sistem secara manual.
+
