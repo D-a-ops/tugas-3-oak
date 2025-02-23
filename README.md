@@ -20,25 +20,7 @@ Unit kontrol berbasis mikrokontroler STM8 bekerja dengan membaca input dari sens
 
 Alur Control Unit :
 
-1.Mulai
-
-2.Inisialisasi Sistem (STM8, Sensor, dll)
-
-3.Baca Input (Sensor/Tombol)
-
-4.Proses Data (Sesuai Program)
-
-5.Keputusan? (Sesuai Kondisi)
-
-Jika Ya, lanjut ke Aktifkan Output
-
-Jika Tidak, kembali ke Baca Input
-
-6.Aktifkan Output (Relay/Motor/LED)
-
-7.Tampilkan Status (LED/Display)
-
-8.Ulangi Proses atau Berhenti
+![Doc1](https://github.com/user-attachments/assets/83f358e9-94de-4686-9496-16f70b26f187)
 
 
 Kesimpulan:
